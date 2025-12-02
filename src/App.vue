@@ -2,7 +2,7 @@
   <div class="layout">
     <Header />
     <main class="main">
-      <RouterView />
+      <Todo />
     </main>
     <Footer />
   </div>
@@ -12,10 +12,13 @@
 import Header from "./components/Header.vue"
 import Footer from "./components/Footer.vue"
 
+import Todo from "./views/Todo.vue"
+
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    Todo
   },
 }
 </script>
